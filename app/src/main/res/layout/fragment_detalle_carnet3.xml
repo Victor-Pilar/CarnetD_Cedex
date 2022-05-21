@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/user_profile_photo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_below="@+id/header_cover_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-1dp"
+                android:elevation="5dp"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vacunas" />
+
+            <RelativeLayout
+                android:id="@+id/profile_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/header_cover_image"
+                android:background="@color/colorPrimary"
+                android:elevation="4dp"
+                android:paddingBottom="24dp">
+                <TextView
+                    android:id="@+id/txt_fecha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:text="Tus Ultimas Vacunas"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/imgEditar"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+
+                    android:background="?attr/selectableItemBackground"
+                    android:clickable="true"/>
+
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_layout"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@drawable/back_centro">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+
+
+                        <TextView
+                            android:id="@+id/txt_vacuna"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Vacuna:"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorTextV"
+                            android:layout_marginTop="8dp"/>
+                        <TextView
+                            android:id="@+id/txt_enf"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Enfermedad:"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorTextV"
+                            android:layout_marginTop="8dp"/>
+                        <TextView
+                            android:id="@+id/txt_otrasV"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Otras Vacunas:"
+                            android:textSize="20sp"
+                            android:textColor="@color/colorTextV"
+                            android:layout_marginTop="8dp"/>
+                        <ProgressBar
+                            android:id="@+id/pbCarga3"
+                            android:layout_gravity="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+
+
+
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                </FrameLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

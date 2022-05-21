@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginTop="25dp">
+
+            <EditText
+                android:id="@+id/txt_tel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Telefono de Emergencia"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="number"
+                android:background="@drawable/campo_redondeado"/>
+
+            <EditText
+                android:id="@+id/txt_cel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Celular"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:inputType="number"
+                android:background="@drawable/campo_redondeado"/>
+
+            <EditText
+                android:id="@+id/txt_curp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Curp"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+
+            <EditText
+                android:id="@+id/txt_edad"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Edad"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_nss2"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="NSS"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_cyn"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Calle y Numero"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_cyl"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Colonia y localidad"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_dym"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Delegacion y Municipio"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_enf"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Entidad Federativa"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_sex"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Sexo"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+            <EditText
+                android:id="@+id/txt_fechan"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Fecha de nacimiento"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:background="@drawable/campo_redondeado"
+                android:inputType="date"
+                android:focusable="false"
+                android:clickable="true"
+                android:maxLines="1"/>
+            <EditText
+                android:id="@+id/txt_entidadN"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:hint="Lugar de nacimiento"
+                android:textColorHint="@color/colorTextV"
+                android:padding="8dp"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:background="@drawable/campo_redondeado"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="0dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/colorTextV"
+                android:text="MODIFICAR DATOS"
+                android:background="@drawable/button_style"
+                android:padding="5dp"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
